@@ -1,0 +1,75 @@
+/* Estilos Globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffd4d4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+.main-header {
+    background-color: #54664d;
+    color: rgb(138, 74, 74);
+    padding: 20px 10px;
+}
+
+.main-header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(255, 212, 212);
+    text-decoration: none;
+}
+
+.main-header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.main-header ul a {
+    color: #ffd4d4;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.main-header ul a:hover {
+    color: #000000;
+}
+
+/* Conteúdo */
+
+.conteudo-inicio {
+    background-color: #c4a6b4;
+    text-align: center;
+    padding: 130px 0;
+    margin-top: 0; 
+}
+
+h2{
+    text-align: center;
+    padding: 50px 0;
+}
+
+/*Footer */
+.main-footer {
+    background-color: #54664d;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: auto;
+}
