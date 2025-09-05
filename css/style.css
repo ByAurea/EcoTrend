@@ -82,12 +82,22 @@ h2 {
 .text-bottom {
   background-color: #3e4c36;
   color: #e7dbd7;
+  text-align: center;
+  padding: 40px;
+}
+
+.img-div{
+    max-height: 400px;
+}
+
+.text-bottom-container{
+    padding-bottom: 50px
 }
 
 /* Carrossel */
 
 .imagem-carrossel {
-  max-height: 500px; /* Exemplo: define a altura máxima para 400 pixels */
+  max-height: 600px;
   object-fit: cover;
 }
 
