@@ -1,0 +1,16 @@
+.card-products {
+  background-color: #e7dbd7;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.555);
+  color: #54664d;
+}
+
+.btn-products {
+  background-color: #54664d;
+  border-color: #618155;
+  transition: background-color 0.3s ease;
+}
+
+.btn-products:hover {
+  background-color: #26331e;
+  border-color: #3e4c36;
+}
