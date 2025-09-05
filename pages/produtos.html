@@ -1,29 +1,97 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EcoTrend - Produtos</title>
-    <link rel="stylesheet" href="../css/produtos.css">
-</head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/produtos.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
     <header class="main-header">
-        <nav>
-            <a href="/imgs/" class="logo">EcoTrend</a>
-            <ul>
-                <li><a href="../index.html">Início</a></li>
-                <li><a href="produtos.html">Nossos Produtos</a></li>
-                <li><a href="contato.html">Entre em contato</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <a href="../index.html" class="logo">EcoTrend</a>
+        <ul>
+          <li><a href="../index.html">Início</a></li>
+          <li><a href="produtos.html">Nossos Produtos</a></li>
+          <li><a href="contato.html">Entre em contato</a></li>
+          <li>
+            <a href="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="currentColor"
+                class="bi bi-cart"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-
+      <div class="text-center my-5">
+        <h3>Skincare</h3>
+      </div>
+      <div class="container"></div>
+        <div class="row gap-4">
+          <div class="card" style="width: 18rem">
+            <img src="../imgs/skincare2.jpg" class="card-img-top" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Sérum Facial Natural Vegano 45ml</h5>
+              <p class="card-text">
+               Hidratação leve e nutritiva com ativos botânicos. Rico em antioxidantes, suaviza linhas finas, realça a luminosidade natural da pele e é 100% vegano e cruelty-free.
+              </p>
+              <p class="card-price">
+               R$60,00
+              </p>
+              <a href="#" class="btn btn-primary">Adicionar ao Carrinho</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img src="../imgs/skincare1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Vitamina C Vegana 30ml</h5>
+              <p class="card-text">
+                Suplemento natural que fortalece a imunidade, auxilia na produção de colágeno e combate os radicais livres. Fórmula 100% vegana, livre de glúten, lactose e testes em animais.
+              </p>
+              <p class="card-price">
+               R$83,00
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img src="../imgs/skincare3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Creme Facial Hidratante Vegano e Natural 130g</h5>
+              <p class="card-text">
+                Hidrata profundamente, nutre e protege a pele, promovendo maciez e luminosidade natural. Fórmula 100% vegana, livre de parabenos, sulfatos e testes em animais.
+              </p>
+              <p class="card-price">
+               R$96,00
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer class="main-footer">
-        <p>&copy; 2025 EcoTrend - Todos os direitos reservados. </p>
+      <p>&copy; 2025 EcoTrend - Todos os direitos reservados.</p>
     </footer>
-</body>
+  </body>
 </html>
