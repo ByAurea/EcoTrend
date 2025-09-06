@@ -21,20 +21,17 @@ O projeto foi construído com as seguintes ferramentas:
 
 A organização do projeto é simples e intuitiva para facilitar a navegação:
 
+```text
 ecotrend/
 ├── css/
 │   └── style.css
-│   └── contato.css
-│   └── detalhes.css
-│   └── produtos.css
 ├── imgs/
-│   ├── (imagens)
+│   ├── (suas imagens)
 ├── js/
 │   └── script.js
 ├── pages/
 │   ├── contato.html
 │   ├── produtos.html
-│   ├── detalhes.html
 ├── index.html
 └── README.md
 
