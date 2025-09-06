@@ -1,364 +1,439 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>EcoTrend - Produtos</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="../css/produtos.css" />
-    <link rel="stylesheet" href="../css/style.css" />
-  </head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>EcoTrend - Produtos</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="../css/produtos.css" />
+        <link rel="stylesheet" href="../css/style.css" />
+    </head>
 
-  <body>
-    <header class="main-header">
-      <nav>
-        <a href="../index.html" class="logo">EcoTrend</a>
-        <ul>
-          <li><a href="../index.html">Início</a></li>
-          <li><a href="produtos.html">Nossos Produtos</a></li>
-          <li><a href="contato.html">Entre em contato</a></li>
-          <li>
-            <a href="">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                fill="currentColor"
-                class="bi bi-cart"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
-                />
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <body>
+        <header class="main-header">
+            <nav>
+                <a href="../index.html" class="logo">EcoTrend</a>
+                <ul>
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="produtos.html">Nossos Produtos</a></li>
+                    <li><a href="contato.html">Entre em contato</a></li>
+                    <li>
+                        <a href="">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                fill="currentColor"
+                                class="bi bi-cart"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
+                                />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-    <main class="container mt-5">
-      <div class="row col-filtros">
-        <div>
-          <h3 class="titleProduct">Produtos</h3>
-          <div
-            class="btn-group"
-            role="group"
-            aria-label="Basic radio toggle button group"
-          >
-            <input
-              type="radio"
-              class="btn-check"
-              name="btnradio"
-              id="btnradio1"
-              autocomplete="off"
-              checked
-            />
-            <label class="btn btn-outline-primary" for="btnradio1"
-              >Skincare</label
-            >
+        <main class="container mt-5">
+            <div class="row col-filtros">
+                <div>
+                    <h3 class="titleProduct">Produtos</h3>
+                    <div
+                        class="btn-group"
+                        role="group"
+                        aria-label="Basic radio toggle button group"
+                    >
+                        <input
+                            type="radio"
+                            class="btn-check"
+                            name="btnradio"
+                            id="btnradio1"
+                            autocomplete="off"
+                            checked
+                        />
+                        <label class="btn btn-outline-primary" for="btnradio1"
+                            >Skincare</label
+                        >
 
-            <input
-              type="radio"
-              class="btn-check"
-              name="btnradio"
-              id="btnradio2"
-              autocomplete="off"
-            />
-            <label class="btn btn-outline-primary" for="btnradio2"
-              >Maquiagens</label
-            >
+                        <input
+                            type="radio"
+                            class="btn-check"
+                            name="btnradio"
+                            id="btnradio2"
+                            autocomplete="off"
+                        />
+                        <label class="btn btn-outline-primary" for="btnradio2"
+                            >Maquiagens</label
+                        >
 
-            <input
-              type="radio"
-              class="btn-check"
-              name="btnradio"
-              id="btnradio3"
-              autocomplete="off"
-            />
-            <label class="btn btn-outline-primary" for="btnradio3"
-              >Produtos de Banho</label
-            >
-          </div>
-        </div>
+                        <input
+                            type="radio"
+                            class="btn-check"
+                            name="btnradio"
+                            id="btnradio3"
+                            autocomplete="off"
+                        />
+                        <label class="btn btn-outline-primary" for="btnradio3"
+                            >Produtos de Banho</label
+                        >
+                    </div>
+                </div>
 
-        <div>
-          <h3 class="titleProduct mt-4">Preço</h3>
-          <div class="input-group mb-3">
-            <span class="input-group-text" id="inputGroup-sizing-default"
-              >$</span
-            >
-            <input
-              type="text"
-              class="form-control form-input"
-              aria-label="Sizing example input"
-              aria-describedby="inputGroup-sizing-default"
-            />
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="text-center my-5">
-          <h1>Skincare</h1>
-        </div>
-        <div
-          class="d-flex justify-content-center flex-wrap cards-espacamento mb-5"
-        >
-          <div class="card card-custom" style="width: 18rem">
-            <img
-              src="../imgs/skincareProduct3.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Sérum Facial Natural Vegano 45ml</h5>
-              <p class="card-text">
-                Hidratação leve e nutritiva com ativos botânicos. Rico em
-                antioxidantes, suaviza linhas finas, realça a luminosidade
-                natural da pele e é 100% vegano e cruelty-free.
-              </p>
-              <p class="card-price">R$60,00</p>
-              <a href="./pages/produtos.html" class="btn btn-primary btn-custom"
-                >Adicionar ao carrinho</a
-              >
+                <div>
+                    <h3 class="titleProduct mt-4">Preço</h3>
+                    <div class="input-group mb-3">
+                        <span
+                            class="input-group-text"
+                            id="inputGroup-sizing-default"
+                            >$</span
+                        >
+                        <input
+                            type="text"
+                            class="form-control form-input"
+                            aria-label="Sizing example input"
+                            aria-describedby="inputGroup-sizing-default"
+                        />
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="card card-custom" style="width: 18rem">
-            <img
-              src="../imgs/skincareProduct2.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Vitamina C Vegana 30ml</h5>
-              <p class="card-text">
-                Suplemento natural que fortalece a imunidade, auxilia na
-                produção de colágeno e combate os radicais livres. Fórmula 100%
-                vegana, livre de glúten, lactose e testes em animais.
-              </p>
-              <p class="card-price">R$83,00</p>
-              <a href="./pages/produtos.html" class="btn btn-primary btn-custom"
-                >Adicione ao carrinho</a
-              >
-            </div>
-          </div>
-          <div class="card card-custom" style="width: 18rem">
-            <img
-              src="../imgs/skincareProduct3.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">
-                Creme Facial Hidratante Vegano e Natural 130g
-              </h5>
-              <p class="card-text">
-                Hidrata profundamente, nutre e protege a pele, promovendo maciez
-                e luminosidade natural. Fórmula 100% vegana, livre de parabenos,
-                sulfatos e testes em animais.
-              </p>
-              <p class="card-price">R$96,00</p>
-              <a href="./pages/produtos.html" class="btn btn-primary btn-custom"
-                >Adicione ao carrinho</a
-              >
-            </div>
-          </div>
-        </div>
 
-        <div class="text-center my-5">
-          <h1>Maquiagem</h1>
-        </div>
-
-        <div
-          class="d-flex justify-content-center flex-wrap cards-espacamento mb-5"
-        >
-          <div class="card card-custom" style="width: 18rem">
-            <img src="../imgs/make1.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Kit 9 Pincéis de Maquiagem Veganos</h5>
-              <p class="card-text">
-                Conjunto completo para aplicação de base, sombras, blush e
-                contorno. Cerdas macias e 100% veganas, garantindo precisão e
-                acabamento profissional sem crueldade.
-              </p>
-              <p class="card-price">R$110,00</p>
-              <a href="./pages/produtos.html" class="btn btn-primary btn-custom"
-                >Adicionar ao carrinho</a
-              >
-            </div>
-          </div>
-          <div class="card card-custom" style="width: 18rem">
-            <img src="../imgs/make2.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Corretivo Vegano 12g</h5>
-              <p class="card-text">
-                Cobertura uniforme que disfarça imperfeições e ilumina a pele.
-                Fórmula 100% vegana, livre de parabenos e cruelty-free, ideal
-                para todos os tons de pele.
-              </p>
-              <p class="card-price">R$62,00</p>
-              <a href="./pages/produtos.html" class="btn btn-primary btn-custom"
-                >Adicione ao carrinho</a
-              >
-            </div>
-          </div>
-          <div class="card card-custom" style="width: 18rem">
-            <img src="../imgs/make3.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Contorno Vegano 9g</h5>
-              <p class="card-text">
-                Fórmula 100% vegana que define e realça os traços do rosto com
-                acabamento natural e de longa duração. Livre de parabenos e
-                cruelty-free.
-              </p>
-              <p class="card-price">R$57,00</p>
-              <a href="./pages/produtos.html" class="btn btn-primary btn-custom"
-                >Adicione ao carrinho</a
-              >
-            </div>
-          </div>
-        </div>
-
-        <div class="text-center my-5">
-          <h1>Produtos de Banho</h1>
-        </div>
-
-        <div
-          class="d-flex justify-content-center flex-wrap cards-espacamento mb-5"
-        >
-          <div class="card card-custom" style="width: 18rem">
-            <img src="../imgs/banho1.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">
-                Kit Vegano: Shampoo, Condicionador e Creme para Pentear
-              </h5>
-              <p class="card-text">
-                Cuidado completo para os fios com hidratação, nutrição e maciez.
-                Fórmulas 100% veganas, livres de sulfatos, parabenos e
-                cruelty-free, ideais para uso diário.
-              </p>
-              <p class="card-price">R$127,00</p>
-              <a href="./pages/produtos.html" class="btn btn-primary btn-custom"
-                >Adicionar ao carrinho</a
-              >
-            </div>
-          </div>
-          <div class="card card-custom" style="width: 18rem">
-            <img src="../imgs/banho2.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Esfoliante Natural Vegano</h5>
-              <p class="card-text">
-                Com partículas de nozes e castanhas, remove células mortas
-                suavemente, renovando a pele e estimulando a circulação. Fórmula
-                100% natural, vegana e cruelty-free.
-              </p>
-              <p class="card-price">R$57,00</p>
-              <a href="./pages/produtos.html" class="btn btn-primary btn-custom"
-                >Adicione ao carrinho</a
-              >
-            </div>
-          </div>
-          <div class="card card-custom" style="width: 18rem">
-            <img src="../imgs/banho3.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Creme Hidratante Corporal Vegano</h5>
-              <p class="card-text">
-                Hidrata profundamente, deixando a pele macia e perfumada com
-                toque suave. Fórmula 100% vegana, livre de parabenos e
-                cruelty-free.
-              </p>
-              <p class="card-price">R$62,00</p>
-              <a href="./pages/produtos.html" class="btn btn-primary btn-custom"
-                >Adicione ao carrinho</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-
-    <footer class="main-footer">
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-md-4 mb-4">
-            <h5>Entre em Contato</h5>
-            <p>
-              Email:
-              <a href="mailto:contato@ecotrend.com.br" class="footer-link"
-                >contato@ecotrend.com.br</a
-              ><br />
-              Telefone:
-              <a href="tel:+5511999999999" class="footer-link"
-                >(11) 99999-9999</a
-              ><br />
-              Endereço: Rua da Natureza, 123 - São Paulo, SP
-            </p>
-          </div>
-
-          <div class="col-md-4 mb-4">
-            <h5>Siga-nos</h5>
-            <div class="social-icons">
-              <a
-                href="https://www.instagram.com/ecotrend"
-                target="_blank"
-                class="social-icon"
-                aria-label="Instagram"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="30"
-                  height="30"
-                  fill="currentColor"
-                  class="bi bi-instagram"
-                  viewBox="0 0 16 16"
+            <div class="row">
+                <div class="text-center my-5">
+                    <h1>Skincare</h1>
+                </div>
+                <div
+                    class="d-flex justify-content-center flex-wrap cards-espacamento mb-5"
                 >
-                  <path
-                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.432-.174 1.941-.372.526-.205.972-.478 1.417-.923.445-.445.718-.89.923-1.417.197-.509.332-1.09.372-1.942C15.99 12.445 16 12.173 16 10s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.924 3.924 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.09-.333-1.942-.372C10.445.01 10.173 0 8 0zm0 1.5c2.163 0 2.414.01 3.26.05c.82.035 1.187.16 1.46.27l.452.185a.91.91 0 0 1 .485.289.91.91 0 0 1 .289.485l.185.452c.11.273.235.64.27 1.46.04 2.162.04 2.42 0 3.26s-.01 2.414-.05 3.26c-.035.82-.16 1.187-.27 1.46l-.185.452a.91.91 0 0 1-.289.485.91.91 0 0 1-.485.289l-.452.185c-.273.11-.64.235-1.46.27-2.162.04-2.42.04-3.26 0-.82-.035-1.187-.16-1.46-.27l-.452-.185a.91.91 0 0 1-.485-.289.91.91 0 0 1-.289-.485l-.185-.452c-.11-.273-.235-.64-.27-1.46-.04-2.162-.04-2.42 0-3.26s.01-2.414.05-3.26c.035-.82.16-1.187.27-1.46l.185-.452a.91.91 0 0 1 .289-.485.91.91 0 0 1 .485-.289L6.54 1.55c.273-.11.64-.235 1.46-.27zM8 3.5a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9zm0 1a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7zm3.5 1a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"
-                  />
-                </svg>
-              </a>
-              <a
-                href="https://www.facebook.com/ecotrend"
-                target="_blank"
-                class="social-icon"
-                aria-label="Facebook"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="30"
-                  height="30"
-                  fill="currentColor"
-                  class="bi bi-facebook"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.423V16c3.628-.604 6.75-3.934 6.75-7.951"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
+                    <div class="card card-custom" style="width: 18rem">
+                        <img
+                            src="../imgs/skincareProduct3.jpg"
+                            class="card-img-top"
+                            alt="..."
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Sérum Facial Natural Vegano 45ml
+                            </h5>
+                            <p class="card-text">
+                                Hidratação leve e nutritiva com ativos
+                                botânicos. Rico em antioxidantes, suaviza linhas
+                                finas, realça a luminosidade natural da pele e é
+                                100% vegano e cruelty-free.
+                            </p>
+                            <p class="card-price">R$60,00</p>
+                            <a
+                                href="./detalhes.html"
+                                class="btn btn-primary btn-custom"
+                                >Adicionar ao carrinho</a
+                            >
+                        </div>
+                    </div>
+                    <div class="card card-custom" style="width: 18rem">
+                        <img
+                            src="../imgs/skincareProduct2.jpg"
+                            class="card-img-top"
+                            alt="..."
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Vitamina C Vegana 30ml</h5>
+                            <p class="card-text">
+                                Suplemento natural que fortalece a imunidade,
+                                auxilia na produção de colágeno e combate os
+                                radicais livres. Fórmula 100% vegana, livre de
+                                glúten, lactose e testes em animais.
+                            </p>
+                            <p class="card-price">R$83,00</p>
+                            <a
+                                href="./detalhes.html"
+                                class="btn btn-primary btn-custom"
+                                >Adicione ao carrinho</a
+                            >
+                        </div>
+                    </div>
+                    <div class="card card-custom" style="width: 18rem">
+                        <img
+                            src="../imgs/skincareProduct3.jpg"
+                            class="card-img-top"
+                            alt="..."
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Creme Facial Hidratante Vegano e Natural 130g
+                            </h5>
+                            <p class="card-text">
+                                Hidrata profundamente, nutre e protege a pele,
+                                promovendo maciez e luminosidade natural.
+                                Fórmula 100% vegana, livre de parabenos,
+                                sulfatos e testes em animais.
+                            </p>
+                            <p class="card-price">R$96,00</p>
+                            <a
+                                href="./detalhes.html"
+                                class="btn btn-primary btn-custom"
+                                >Adicione ao carrinho</a
+                            >
+                        </div>
+                    </div>
+                </div>
 
-          <div class="col-md-4 mb-4">
-            <h5>Informações da Loja</h5>
-            <ul class="list-unstyled">
-              <li><a href="#" class="footer-link">Política de Troca</a></li>
-              <li>
-                <a href="#" class="footer-link">Política de Privacidade</a>
-              </li>
-              <li><a href="#" class="footer-link">Termos de Serviço</a></li>
-            </ul>
-          </div>
-        </div>
-        <hr class="footer-divider" />
-        <p class="mb-0">&copy; 2025 EcoTrend - Todos os direitos reservados.</p>
-      </div>
-    </footer>
-  </body>
+                <div class="text-center my-5">
+                    <h1>Maquiagem</h1>
+                </div>
+
+                <div
+                    class="d-flex justify-content-center flex-wrap cards-espacamento mb-5"
+                >
+                    <div class="card card-custom" style="width: 18rem">
+                        <img
+                            src="../imgs/make1.jpg"
+                            class="card-img-top"
+                            alt="..."
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Kit 9 Pincéis de Maquiagem Veganos
+                            </h5>
+                            <p class="card-text">
+                                Conjunto completo para aplicação de base,
+                                sombras, blush e contorno. Cerdas macias e 100%
+                                veganas, garantindo precisão e acabamento
+                                profissional sem crueldade.
+                            </p>
+                            <p class="card-price">R$110,00</p>
+                            <a
+                                href="./detalhes.html"
+                                class="btn btn-primary btn-custom"
+                                >Adicionar ao carrinho</a
+                            >
+                        </div>
+                    </div>
+                    <div class="card card-custom" style="width: 18rem">
+                        <img
+                            src="../imgs/make2.jpg"
+                            class="card-img-top"
+                            alt="..."
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Corretivo Vegano 12g</h5>
+                            <p class="card-text">
+                                Cobertura uniforme que disfarça imperfeições e
+                                ilumina a pele. Fórmula 100% vegana, livre de
+                                parabenos e cruelty-free, ideal para todos os
+                                tons de pele.
+                            </p>
+                            <p class="card-price">R$62,00</p>
+                            <a
+                                href="./detalhes.html"
+                                class="btn btn-primary btn-custom"
+                                >Adicione ao carrinho</a
+                            >
+                        </div>
+                    </div>
+                    <div class="card card-custom" style="width: 18rem">
+                        <img
+                            src="../imgs/make3.jpg"
+                            class="card-img-top"
+                            alt="..."
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Contorno Vegano 9g</h5>
+                            <p class="card-text">
+                                Fórmula 100% vegana que define e realça os
+                                traços do rosto com acabamento natural e de
+                                longa duração. Livre de parabenos e
+                                cruelty-free.
+                            </p>
+                            <p class="card-price">R$57,00</p>
+                            <a
+                                href="./detalhes.html"
+                                class="btn btn-primary btn-custom"
+                                >Adicione ao carrinho</a
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center my-5">
+                    <h1>Produtos de Banho</h1>
+                </div>
+
+                <div
+                    class="d-flex justify-content-center flex-wrap cards-espacamento mb-5"
+                >
+                    <div class="card card-custom" style="width: 18rem">
+                        <img
+                            src="../imgs/banho1.jpg"
+                            class="card-img-top"
+                            alt="..."
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Kit Vegano: Shampoo, Condicionador e Creme para
+                                Pentear
+                            </h5>
+                            <p class="card-text">
+                                Cuidado completo para os fios com hidratação,
+                                nutrição e maciez. Fórmulas 100% veganas, livres
+                                de sulfatos, parabenos e cruelty-free, ideais
+                                para uso diário.
+                            </p>
+                            <p class="card-price">R$127,00</p>
+                            <a
+                                href="./detalhes.html"
+                                class="btn btn-primary btn-custom"
+                                >Adicionar ao carrinho</a
+                            >
+                        </div>
+                    </div>
+                    <div class="card card-custom" style="width: 18rem">
+                        <img
+                            src="../imgs/banho2.jpg"
+                            class="card-img-top"
+                            alt="..."
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Esfoliante Natural Vegano
+                            </h5>
+                            <p class="card-text">
+                                Com partículas de nozes e castanhas, remove
+                                células mortas suavemente, renovando a pele e
+                                estimulando a circulação. Fórmula 100% natural,
+                                vegana e cruelty-free.
+                            </p>
+                            <p class="card-price">R$57,00</p>
+                            <a
+                                href="./detalhes.html"
+                                class="btn btn-primary btn-custom"
+                                >Adicione ao carrinho</a
+                            >
+                        </div>
+                    </div>
+                    <div class="card card-custom" style="width: 18rem">
+                        <img
+                            src="../imgs/banho3.jpg"
+                            class="card-img-top"
+                            alt="..."
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Creme Hidratante Corporal Vegano
+                            </h5>
+                            <p class="card-text">
+                                Hidrata profundamente, deixando a pele macia e
+                                perfumada com toque suave. Fórmula 100% vegana,
+                                livre de parabenos e cruelty-free.
+                            </p>
+                            <p class="card-price">R$62,00</p>
+                            <a
+                                href="./detalhes.html"
+                                class="btn btn-primary btn-custom"
+                                >Adicione ao carrinho</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="main-footer">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <h5>Entre em Contato</h5>
+                        <p>
+                            Email:
+                            <a
+                                href="mailto:contato@ecotrend.com.br"
+                                class="footer-link"
+                                >contato@ecotrend.com.br</a
+                            ><br />
+                            Telefone:
+                            <a href="tel:+5511999999999" class="footer-link"
+                                >(11) 99999-9999</a
+                            ><br />
+                            Endereço: Rua da Natureza, 123 - São Paulo, SP
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <h5>Siga-nos</h5>
+                        <div class="social-icons">
+                            <a
+                                href="https://www.instagram.com/ecotrend"
+                                target="_blank"
+                                class="social-icon"
+                                aria-label="Instagram"
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="30"
+                                    height="30"
+                                    fill="currentColor"
+                                    class="bi bi-instagram"
+                                    viewBox="0 0 16 16"
+                                >
+                                    <path
+                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.432-.174 1.941-.372.526-.205.972-.478 1.417-.923.445-.445.718-.89.923-1.417.197-.509.332-1.09.372-1.942C15.99 12.445 16 12.173 16 10s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.924 3.924 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.09-.333-1.942-.372C10.445.01 10.173 0 8 0zm0 1.5c2.163 0 2.414.01 3.26.05c.82.035 1.187.16 1.46.27l.452.185a.91.91 0 0 1 .485.289.91.91 0 0 1 .289.485l.185.452c.11.273.235.64.27 1.46.04 2.162.04 2.42 0 3.26s-.01 2.414-.05 3.26c-.035.82-.16 1.187-.27 1.46l-.185.452a.91.91 0 0 1-.289.485.91.91 0 0 1-.485.289l-.452.185c-.273.11-.64.235-1.46.27-2.162.04-2.42.04-3.26 0-.82-.035-1.187-.16-1.46-.27l-.452-.185a.91.91 0 0 1-.485-.289.91.91 0 0 1-.289-.485l-.185-.452c-.11-.273-.235-.64-.27-1.46-.04-2.162-.04-2.42 0-3.26s.01-2.414.05-3.26c.035-.82.16-1.187.27-1.46l.185-.452a.91.91 0 0 1 .289-.485.91.91 0 0 1 .485-.289L6.54 1.55c.273-.11.64-.235 1.46-.27zM8 3.5a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9zm0 1a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7zm3.5 1a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"
+                                    />
+                                </svg>
+                            </a>
+                            <a
+                                href="https://www.facebook.com/ecotrend"
+                                target="_blank"
+                                class="social-icon"
+                                aria-label="Facebook"
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="30"
+                                    height="30"
+                                    fill="currentColor"
+                                    class="bi bi-facebook"
+                                    viewBox="0 0 16 16"
+                                >
+                                    <path
+                                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.423V16c3.628-.604 6.75-3.934 6.75-7.951"
+                                    />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <h5>Informações da Loja</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#" class="footer-link"
+                                    >Política de Troca</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link"
+                                    >Política de Privacidade</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link"
+                                    >Termos de Serviço</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="footer-divider" />
+                <p class="mb-0">
+                    &copy; 2025 EcoTrend - Todos os direitos reservados.
+                </p>
+            </div>
+        </footer>
+    </body>
 </html>
