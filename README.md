@@ -24,13 +24,17 @@ A organização do projeto é simples e intuitiva para facilitar a navegação:
 ecotrend/
 ├── css/
 │   └── style.css
+│   └── contato.css
+│   └── detalhes.css
+│   └── produtos.css
 ├── imgs/
-│   ├── (suas imagens)
+│   ├── (imagens)
 ├── js/
 │   └── script.js
 ├── pages/
 │   ├── contato.html
 │   ├── produtos.html
+│   ├── detalhes.html
 ├── index.html
 └── README.md
 
