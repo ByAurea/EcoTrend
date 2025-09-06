@@ -62,5 +62,6 @@ ecotrend/
 * **Página de Contato:** `pages/contato.html`
 
 ### Link do Site 🔗
+https://byaurea.github.io/EcoTrend/
 
 Aproveite a sua jornada com a EcoTrend! 🌱
