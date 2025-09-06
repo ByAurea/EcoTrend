@@ -34,7 +34,7 @@ ecotrend/
 │   ├── produtos.html
 ├── index.html
 └── README.md
-
+```
 ---
 
 ## 🚀 Como Rodar o Projeto
