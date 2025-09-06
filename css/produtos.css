@@ -14,3 +14,31 @@
   background-color: #26331e;
   border-color: #3e4c36;
 }
+
+.btn-outline-primary {
+  border-color: #54664d;
+  color: #54664d;
+}
+
+.btn-check:checked + .btn {
+  background-color: #26331e;
+  border-color: #26331e;
+}
+.btn-check:hover + .btn {
+  border-color: #26331e;
+  color: #26331e;
+}
+
+.form-input {
+  background-color: #f1ebe9;
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 768px) {
+  .col-filtros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
