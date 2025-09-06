@@ -64,4 +64,9 @@ ecotrend/
 ### Link do Site 🔗
 https://byaurea.github.io/EcoTrend/
 
+## 💻 Participantes
+Áurea Carminato 563837
+Laura Tigre 565281
+Henrique Castro 564560
+
 Aproveite a sua jornada com a EcoTrend! 🌱
